@@ -1,5 +1,7 @@
 # Replicação Experimental: Análise de Sentimentos e Mineração de Tópicos em Avaliações de Medicamentos.
 
+> 📖 **Artigo Base Utilizado:** [Clique aqui para acessar o PDF do artigo original](./s12874-021-01347-1.pdf)
+
 Este repositório contém o desenvolvimento do trabalho final da disciplina de Processamento de Linguagem Natural (PLN). O projeto consiste na **reprodução experimental** do artigo científico "Machine learning in medicine: a practical introduction to natural language processing" focado na extração de insights, análise de sentimentos através de abordagens baseadas em léxico e aprendizado supervisionado a partir de revisões textuais de pacientes sobre medicamentos.
 
 ## 📋 Modalidade do Trabalho
