@@ -48,3 +48,63 @@ O projeto foi desenvolvido inteiramente em **Python 3** utilizando o ambiente **
 
 ```bash
 pip install contractions imbalanced-learn gensim kagglehub pandas numpy nltk matplotlib
+```
+
+## 🚀 Como Reproduzir os Experimentos
+
+> **Nota:** O download dos dados brutos do dataset (`drugsComTrain_raw.csv` e `drugsComTest_raw.csv`) e dos pacotes do NLTK (`stopwords` e `punkt`) é realizado automaticamente pelo próprio código através da biblioteca **kagglehub**.
+
+### Opção 1: Execução no Google Colab (Recomendado)
+
+Esta é a forma mais rápida de executar o projeto, pois não exige configurações na máquina local.
+
+1. Faça o download do arquivo `NLP_Artigo.ipynb` presente neste repositório.
+2. Acesse o Google Colab.
+3. Na tela inicial, selecione a opção **Upload** e envie o arquivo `NLP_Artigo.ipynb`.
+4. Após a abertura do notebook, clique em **Ambiente de execução → Executar tudo** (ou utilize o atalho `Ctrl + F9`).
+5. A primeira célula instalará automaticamente todas as dependências necessárias para a execução do projeto.
+
+---
+
+### Opção 2: Execução Local com Jupyter Notebook
+
+Caso prefira executar o projeto localmente, siga os passos abaixo.
+
+#### 1. Clonar o Repositório
+
+```bash
+git clone https://github.com/henriquelaiter/NLP-UCI-ML-Drug-Review-dataset.git
+cd NOME-DO-REPOSITORIO
+```
+
+#### 2. Instalar as Dependências
+
+```bash
+pip install contractions imbalanced-learn gensim kagglehub pandas numpy nltk matplotlib
+```
+
+#### 3. Iniciar o Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+#### 4. Executar o Código
+
+No navegador que será aberto:
+
+1. Clique no arquivo `NLP_Artigo.ipynb`.
+2. No menu superior, selecione:
+
+   * **Cell → Run All**, ou
+   * **Kernel → Restart & Run All**
+3. Aguarde a execução sequencial de todas as células para reproduzir os experimentos.
+
+---
+
+## ⚠️ Limitações e Discussões Críticas
+
+### Amostragem
+
+Para viabilizar a execução em ambientes acadêmicos e gratuitos, foi utilizada uma amostragem aleatória estatisticamente representativa de **5.000 registros**. Essa estratégia busca reproduzir as restrições computacionais e o comportamento amostral descritos no artigo original.
+
